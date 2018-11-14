@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   resources :articulos
   root 'bienvenido#index'
   get 'bienvenido/index'
